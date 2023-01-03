@@ -1,0 +1,25 @@
+@import "colors";
+
+.services{
+    height: 100vh;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10rem 0;
+    background-color: whitesmoke;
+
+   .carousel{
+        height: 90vh;
+        width: 80vw;
+        object-fit: cover;
+        padding: 2rem;
+        display: flex;
+        justify-content: center;
+        align-self: center;
+    }
+    .carousel .slide .legend{
+        font-size: 2rem;
+        margin-bottom: 3rem;
+    }
+}
